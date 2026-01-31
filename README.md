@@ -36,6 +36,11 @@ Este projeto é uma API robusta para gerenciamento de quadros de tarefas (boards
    ./gradlew bootRun
 
 
-   🔗 Endpoints PrincipaisMétodoEndpointDescriçãoPOST/boardsCria um novo quadroGET/boards/{id}Detalha um quadro e suas colunasPOST/boards/{id}/columnsAdiciona colunas ao quadroPOST/cardsCria uma nova tarefa dentro de uma colunaPATCH/cards/{id}/moveMove o card entre colunas
+   Método,Endpoint,Descrição
+POST,/boards,Cria um novo quadro
+GET,/boards/{id},Detalha um quadro e suas colunas
+POST,/boards/{id}/columns,Adiciona colunas ao quadro
+POST,/cards,Cria uma nova tarefa dentro de uma coluna
+PATCH,/cards/{id}/move,Move o card entre colunas
    
    
