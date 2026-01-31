@@ -31,12 +31,12 @@ Este projeto é uma API robusta para gerenciamento de quadros de tarefas (boards
 ### Instalação
 1. Clone o repositório:
    ```bash
-
+git clone [https://github.com/Tognolli0/boardstasks.git](https://github.com/seu-usuario/board.git)
    ./gradlew build
 
    ./gradlew bootRun
 
 
    🔗 Endpoints PrincipaisMétodoEndpointDescriçãoPOST/boardsCria um novo quadroGET/boards/{id}Detalha um quadro e suas colunasPOST/boards/{id}/columnsAdiciona colunas ao quadroPOST/cardsCria uma nova tarefa dentro de uma colunaPATCH/cards/{id}/moveMove o card entre colunas
-   git clone [https://github.com/seu-usuario/board.git](https://github.com/seu-usuario/board.git)
+   
    
